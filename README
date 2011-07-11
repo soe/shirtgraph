@@ -1,0 +1,13 @@
+## License
+	* copyright 2011 Soe Thiha
+	* MIT License - do whatever you want
+
+## Notes
+	* just releasing source of my weekend fun project http://shirtgraph.com
+	* set your oauth consumer key and secret for Instagram and PicPlz in config.php
+		* PicPlz is not fully complemented but oauth flow should be functional
+	* shirts folder needs to be writable for image processing
+	* index.php controls the site flow and has layout config for shirt designs
+	* shirtgraph.php controls the site frame
+	* step_<name>.php for each step
+	* proxy.php is an ajax proxy for shirtpress simplomat designer (inside js folder)

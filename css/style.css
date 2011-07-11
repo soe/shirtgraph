@@ -1,0 +1,74 @@
+html,body{margin:0;padding:0}
+body{font: 84% tahoma,arial,sans-serif;text-align:center;background:#fadc76 url('http://wufoo.com/images/stripe2.png');}
+p{margin:6px 10px}
+a{display:block;color: #fadc76;padding:10px}
+
+div#header h1{height:28px;line-height:28px;margin:0;
+  padding-left:10px;background: #cf3b19;color: #fff;font-size:18px;font-weight:600;}
+  
+a#header{padding: 0; text-decoration: none;}
+  
+div#container{text-align:left}
+div#container{width:700px;margin:0 auto; border: 1px solid #fadc76; margin-top: 20px;}
+
+div#content{background: #fff;padding:14px 10px}
+div#content p{line-height:1.4}
+div#content a{display:inline;color:#94bc34;}
+
+div#footer{background: #777;color: #fff}
+div#footer p{margin:0;padding:5px 10px}
+
+div#lr{background:#fff;padding:12px 0;clear: both;}
+#lr div#center{margin:0 auto; width: 500px; text-align: center; padding: 6px 20px;}
+.next, .back { float: right; color: #fff!important; background: #94bc34; border: 1px solid #eee; padding: 6px 28px; font-size: 106%; }
+.back { float: left; color: #444!important; background: #ddd; }
+
+div#footer{clear:both;width:100%}
+div#footer a{color:#f2f2f2; float: left;}
+
+div#navigation {height:60px;background:#fadc76;}
+div#navigation div{float:left;width:155px;padding:10px;font-size:120%;height:40px; border-bottom: 6px solid #f3f3f3;}
+div#navigation div#selected{background:#ffe27f;font-style:italic; border-bottom: 6px solid #94bc34;}
+div#navigation span{font-size:84%;line-height:116%;color:#ac4f34;margin-top:10px;}
+div#navigation a{padding: 0; color: #000; text-decoration: none;}
+
+div.templatebox { float: left; border: 1px solid #eee; padding: 4px; margin: 6px;}
+div.templatebox div.pic { width: 180px; height: 180px; background: #ddd; border:none; text-decoration:none;}
+div.templatebox div.title { text-align: center;}
+div.templatebox a.preview { font-size: 80%; text-align: center;}
+
+div.clear { clear: both; }
+
+div.form { padding: 10px 20px; }
+div.form span.label { display: block; margin: 6px 0; font-size: 108%; font-weight: 700; color: #cf3b19; }
+div.form input { padding: 4px; font-size: 102%; width: 340px; border: 1px solid #eee; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;}
+div.form span.prompt { display: block; margin: 6px 0 20px 0; font-size: 84%; color: #777; }
+
+div.field { margin: 8px 0; }
+div.field span { font-weight: 700; margin-right: 12px; margin-bottom: 6px; display: block; float: left; width: 420px; overflow: hidden; }
+div.field select { width: 380px; }
+
+/* pics */
+.pic{float: left; margin: 8px;-moz-box-shadow:0 0 6px #999;-webkit-box-shadow:0 0 6px #999; position: relative;border: 2px solid #fff;}
+.pic:hover{-moz-box-shadow:0 0 6px #FF8400;-webkit-box-shadow:0 0 6px #FF8400;cursor:pointer;border: 2px solid #666;}
+.pic.selected{-moz-box-shadow:0 0 6px #FF8400;-webkit-box-shadow:0 0 6px #FF8400;border: 2px solid #666;}
+.pic .tick{display: none; float: right; width: 16px; height: 16px; font-size: 18px; font-weight: bold; color: #94bc34; position: absolute; bottom: 8px; right: 2px; border: 0; margin: 0;}
+
+/* sort */
+#sort {
+	list-style: none;
+
+	padding:0;
+	margin-top:-10px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+#sort li {
+	display: block;
+	position:relative;
+	float:left;
+}
+#sort li img.handle {
+	cursor: move;
+}
